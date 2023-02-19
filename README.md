@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 with Tailwind CSS and Dark Mode
+
+This is a basic starter template for a Next.js 13 project using Tailwind CSS and dark mode. It includes a toggle button that allows the user to switch between light and dark mode, powered by the `next-themes` library.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, you can follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository to your local machine.
+2. Run `pnpm install` to install the dependencies.
+3. Run `pnpm run dev` to start the development server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the Next.js development server and you should be able to access the app by visiting `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This starter template includes the following features:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-   Next.js 13
+-   Tailwind CSS
+-   Dark mode with `next-themes`
+-   `pnpm` for package management
+-   `use-sound` A React Hook for Sound Effects
+-   Basic file structure for a Next.js project
+-   Customizable `tailwind.config.js` file
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Feel free to modify or remove any of these features as needed to fit your project requirements.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+To use this starter template for your own project, you can follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository or download the source code.
+2. Customize the project as needed by modifying the files in the `app` and `components` directories.
+3. Update the `README.md` file and any other files as needed for your project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Credits
 
-## Deploy on Vercel
+This starter template was created by Vadim Ghedreutan and is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).

@@ -24,13 +24,11 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<html>
+		<html className="h-full scroll-smooth">
 			<head />
 			<body className="bg-gradient-to-r from-green-50 to-green-200 dark:bg-gradient-to-t dark:from-[#242933] dark:to-[#2A303C] max-w-3xl mx-auto transition-all duration-150">
 				<Providers>
-					<div
-						className={`${oswald.variable} ${popins.variable} wrapper`}
-					>
+					<div className={`${oswald.variable} ${popins.variable}`}>
 						<Header />
 						<main>{children}</main>
 						<Footer />

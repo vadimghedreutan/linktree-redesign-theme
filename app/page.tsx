@@ -4,7 +4,7 @@ import LinkCard from "./components/LinkCard"
 
 const HomePage = () => {
 	return (
-		<div className="flex justify-center items-center flex-col mx-auto w-full mt-16 px-8">
+		<div className="flex justify-center items-center flex-col mx-auto w-full pt-12 px-8">
 			<Image
 				alt={data.name}
 				src={data.avatar}

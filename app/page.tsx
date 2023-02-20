@@ -16,7 +16,7 @@ const HomePage = () => {
 			<h1 className="my-4 text-2xl font-semibold font-oswald">
 				@{data.name}
 			</h1>
-			<p className="mb-8 text-gray-500 font-medium text-center font-popins">
+			<p className="mb-8 text-gray-500 font-medium text-center font-popins text-sm sm:text-base">
 				{data.bio}
 			</p>
 			{data.links.map((link) => (

@@ -25,7 +25,7 @@ const LinkCard = ({ url, title }: Props) => {
 					)}
 				</div>
 				<div className="flex justify-center w-full">
-					<h2 className="font-popins font-medium text-md flex items-center text-center">
+					<h2 className="font-popins font-medium text-sm sm:text-base flex items-center text-center">
 						{title}
 					</h2>
 				</div>
